@@ -6,6 +6,16 @@
   --border-radius: 12px;
   --bg: #fff;
   --text: #000;
+
+  // medias
+  --mobile: 320px;
+  --phablet: 480px;
+  --tablet: 768px;
+  --desktop: 1024px;
+  --large: 1200px;
+  --xlarge: 1440px;
+  --xxlarge: 1600px;
+  --xxxlarge: 1920px;
 }
 
 @media (prefers-color-scheme: dark) {
