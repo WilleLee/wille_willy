@@ -1,8 +1,13 @@
 .main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+  > p:first-child {
+    font: var(--meta);
+    color: yellow;
+  }
+  > p:nth-child(2) {
+    font: var(--body);
+    color: red;
+  }
+  > p:last-child {
+    font: var(--heading);
+  }
 }

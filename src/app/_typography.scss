@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700&family=Open+Sans:wght@300;500;700&display=swap");
+
+:root {
+  --fonts: "Noto Sans KR", "Open Sans", sans-serif;
+  --meta: 300 16px var(--fonts);
+  --body: 500 16px var(--fonts);
+  --heading: 700 16px var(--fonts);
+}
