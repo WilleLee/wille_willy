@@ -5,11 +5,13 @@
   --max-width: 1100px;
   --border-radius: 12px;
   --bg: #fff;
+  --text: #000;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #000;
+    --text: #fff;
   }
 }
 
@@ -28,7 +30,7 @@ body {
 }
 
 body {
-  color: white;
+  color: var(--text);
 }
 
 a {

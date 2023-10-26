@@ -1,11 +1,10 @@
 import styles from "./page.module.scss";
+import Home from "./Home";
 
 export default function HomePage() {
   return (
     <main className={styles.main}>
-      <p>hello world 헬로</p>
-      <p>hello world 헬로</p>
-      <p>hello world 헬로</p>
+      <Home />
     </main>
   );
 }
