@@ -20,8 +20,9 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"],
-      "@/svgs/*": ["./public/svgs/*"]
+      "@/svgs/*": ["public/svgs/*"],
+      "@/images/*": ["public/images/*"],
+      "@/*": ["src/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
